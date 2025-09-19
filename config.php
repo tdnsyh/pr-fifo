@@ -12,7 +12,7 @@ return [
     ],
     'app' => [
         'name' => 'FIFO Inventory',
-        'base_url' => '',
+        'base_url' => 'http://localhost/pr-fifo',
         'allow_registration' => true,
     ]
 ];

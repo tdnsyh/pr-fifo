@@ -32,7 +32,7 @@
       <h4 class="text-white">Dashboard</h4>
       <ul class="nav flex-column mt-4">
         <li class="nav-item">
-          <a class="nav-link text-white" href="/">Dashboard</a>
+          <a class="nav-link text-white" href="index.php">Dashboard</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white" href="<?= base_url('public/items.php') ?>">Items</a>

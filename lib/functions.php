@@ -22,7 +22,7 @@ function get(string $key, $default = null) {
     return $_GET[$key] ?? $default;
 }
 
-function flash(string $key, string $message = null) {
+function flash(string $key, ?string $message = null) {
     if ($message !== null) {
         $_SESSION['flash'][$key] = $message;
         return;
